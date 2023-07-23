@@ -1,0 +1,38 @@
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+
+
+  /*
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  */
+
+}
+.body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+nav li{
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 25px;
+}
+
+
+
+nav ul li{
+  list-style-type:none;
+  transition: color 300ms;
+}
+
+
+nav ul li:hover{
+  background-color: #c4f360;
+}
